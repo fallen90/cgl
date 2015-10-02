@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CGL
+</name>
+</assembly>
+<members>
+<member name="T:CGL.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:CGL.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CGL.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:CGL.My.Resources.Resources.logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:CGL.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:CGL.Database.ds">
+	<summary>
+ CREATED BY FALLEN ^_^
+ </summary>
+	<remarks></remarks>
+</member><member name="F:CGL.Database.isOpen">
+	<summary>
+ Flag for database connectivity
+ </summary>
+	<remarks></remarks>
+</member><member name="M:CGL.Database.#ctor(System.String)">
+	<summary>
+ Creates new Database Object
+ </summary>
+	<param name="database_name">Name of the Database to connect to</param>
+	<remarks></remarks>
+ p
+ 
+
+</member><member name="M:CGL.Database.InsertToDatabase(System.String,System.String,System.String,System.Boolean,System.String)">
+	<summary>
+ Inserts data to database
+ </summary>
+	<param name="table_name">table name in the database</param>
+	<param name="fields">fields array</param>
+	<param name="fields_value">fields value array</param>
+	<param name="include_where">OPTIONAL: if you want to include a WHERE clause in the SQL string</param>
+	<param name="where_clause">OPTIONAL: if include_where is true, </param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:CGL.Logger.Create(System.String,System.String)">
+ Logs all actions of users using the system. 
+ All SQL connections created,
+  buttons clicked,items deleted,
+  created and editted
+
+
+</member>
+</members>
+</doc>
